@@ -1,5 +1,5 @@
-#Ex028 Escreva um programa que faça o computador ‘’pensar’’ um número inteiro entre 0 e 5 e peça para o
-# usuário descobrir qual foi o número escolhido pelo computador.
+'''Ex028 Escreva um programa que faça o computador ‘’pensar’’ um número inteiro entre 0 e 5 e peça para o
+usuário descobrir qual foi o número escolhido pelo computador.'''
 import random
 print('Pensando...')
 l = [1, 2, 3, 4, 5]
