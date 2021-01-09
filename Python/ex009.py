@@ -4,5 +4,5 @@ n = int(input('Digite um número inteiro e descubra qual é a sua taboada: '))
 c = 1
 while c <= 10:
     r = c * n
-    print('{} X {} = {}'.format(c,n,r))
+    print(f'{c} X {n} = {r}')
     c = c +1

@@ -5,4 +5,4 @@ d = n * 2
 t = n * 3
 r = math.sqrt(n)
 
-print('O dobro de {} é {} \nO seu triplo é: {} \nE sua raiz quadrada é {:.1f}'.format(n, d, t, r))
+print(f'O dobro de {n} é {d} \nO seu triplo é: {t} \nE sua raiz quadrada é {r:.1f}')
