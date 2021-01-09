@@ -2,4 +2,4 @@
 com 15% de aumento.'''
 sal = float(input('Qual o salário atual? R$ '))
 aum = sal + (sal*15/100)
-print('O salario antigo de R${:.2f}, com o aumento de 15% fica em R${:.2f}'.format(sal, aum))
+print(f'O salario antigo de R${sal:.2f}, com o aumento de 15% fica em R${aum:.2f}')

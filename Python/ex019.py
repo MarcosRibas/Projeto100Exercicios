@@ -7,4 +7,4 @@ n3 = str(input('Digite o nome do terceiro aluno: '))
 n4 = str(input('Digite o nome do quarto aluno: '))
 s = [n1, n2, n3, n4]
 a = random.choice(s)
-print('Quem vai apagar o quadro: {}'.format(a))
+print(f'Quem vai apagar o quadro: {a}')

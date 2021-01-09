@@ -3,4 +3,4 @@ converta para °F.'''
 
 c = int(input('Qual é a temperatura em °C? '))
 f = (c * 9/5) + 32
-print('{}°C convertidos ficam em {:.1f}°F'.format(c,f))
+print(f'{c}°C convertidos ficam em {f:.1f}°F')

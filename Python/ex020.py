@@ -7,4 +7,4 @@ n3 = str(input('Digite o nome do terceiro aluno: '))
 n4 = str(input('Digite o nome do quarto aluno: '))
 s = [n1, n2, n3, n4]
 random.shuffle(s)
-print('A ordem de apresentação será: {}'.format(s))
+print(f'A ordem de apresentação será: {s}')
