@@ -6,9 +6,9 @@ frase = str(input('Digite uma frase: ')).strip().lower()
 n_a = frase.count('a')
 f_a = frase.find('a')+1
 l_a= frase.rfind('a')-1
-print('Sua frase tem {} letras a'.format(n_a))
-print('A letra A aparece pela primeira vez na {}° posição'.format(f_a))
-print('A letra A apaerece pela ultima vez na {}° posição'.format(l_a))
+print(f'Sua frase tem {n_a} letras a')
+print(f'A letra A aparece pela primeira vez na {f_a}° posição')
+print(f'A letra A apaerece pela ultima vez na {l_a}° posição')
 
 
 

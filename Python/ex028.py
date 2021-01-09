@@ -8,5 +8,5 @@ n = int(input('Tente adivinhar o número que estou pensando. Dica: é um número
 if s == n:
     print('Uau! Você acertou!')
 else:
-    print('ERROU (voz do Faustão). O número que pensei foi {}. Tente novamente'.format(s))
+    print(f'ERROU (voz do Faustão). O número que pensei foi {s}. Tente novamente')
 

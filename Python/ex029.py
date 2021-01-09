@@ -6,6 +6,6 @@ print('------RADAR ELETRONICO------')
 vel = int(input('Velocidade do carro(km/h): '))
 if vel > 80:
     multa = (vel - 80) * 7
-    print('Velocidade a cima do permitido. Multa de R${:.2f}'.format(multa))
+    print(f'Velocidade a cima do permitido. Multa de R${multa:.2f}')
 else:
     print('Velocidade dentro do permitido')
