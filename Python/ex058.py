@@ -12,7 +12,7 @@ while n != s:
     if s == n:
         print('Uau! Você acertou!')
     else:
-        print('ERROU (voz do Faustão). Tente novamente'.format(s))
+        print('ERROU (voz do Faustão). Tente novamente')
         p = p + 1
 
-print('Você precisou de {} tentativas'.format(p))
+print(f'Você precisou de {p} tentativas')

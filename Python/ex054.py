@@ -6,11 +6,11 @@ ano = (now.year)
 maior = 0
 menor = 0
 for c in range(1,8):
-    nasc = int(input('Digite o ano do nascimento da {}° pessoa:\n'.format(c)))
+    nasc = int(input(f'Digite o ano do nascimento da {c}° pessoa:\n'))
     idade = ano - nasc
     if idade < 21:
-        maior = maior + 1
-    else:
         menor = menor + 1
-print('Das pessoas que você citou, {} são maiores de idade, e {} não são'.format(maior, menor))
+    else:
+        maior = maior + 1
+print(f'Das pessoas que você citou, {maior} são maiores de idade, e {menor} não são')
 

@@ -6,7 +6,7 @@ print('SEQUÊNCIA DE FIBONACCI')
 n = int(input('Quantos termos que você quer mostrar?\n'))
 t1 = 0
 t2 = 1
-print('{} → {}'.format(t1, t2), end='')
+print(f'{t1} → {t2}', end='')
 c = 3
 while c <= n:
     t3 = t1 + t2

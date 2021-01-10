@@ -11,4 +11,4 @@ while x != 999:
     quant += 1
     if x != 999:
         soma = soma + x
-print('Você digitou {} valores, que somados resultam em {}'.format(quant, soma))
+print(f'Você digitou {quant} valores, que somados resultam em {soma}')

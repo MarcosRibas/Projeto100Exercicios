@@ -11,18 +11,18 @@ num = 8
 n1 = float(input('Primeiro valor: '))
 n2 = float(input('Segundo valor: '))
 while num != 5:
-    num = float(input('''Qual a ação você deseja aplicar aos valores? {} e {}
+    num = float(input(f'''Qual a ação você deseja aplicar aos valores? {n1} e {n2}
     [ 1 ] somar
     [ 2 ] multiplicar
     [ 3 ] Qual é maior
     [ 4 ] novos valores
-    [ 5 ] sair\nOpção escolhida: '''.format(n1, n2)))
+    [ 5 ] sair\nOpção escolhida: '''))
     if num == 1:
         soma = n1 + n2
-        print('O valor de {} somado ao valor de {} tem o resultado de {}'.format(n1, n2, soma))
+        print(f'O valor de {n1} somado ao valor de {n2} tem o resultado de {soma}')
     elif num == 2:
         mult = n1 * n2
-        print('O valor {} multiplicado pelo valor {} tem o resultado de {}'.format(n1, n2, mult))
+        print(f'O valor {n1} multiplicado pelo valor {n2} tem o resultado de {mult}')
     elif num == 3:
         if n1 > n2:
             print('O valor de {} é maior do que o valor de{}'.format(n1, n2))
