@@ -12,9 +12,9 @@ idade = ano - nasc
 faltam = 18 - idade
 passou = idade - 18
 if idade == 18:
-    print('Em {} você completa 18 anos. Precisa se alistar imediatamente: '.format(ano))
+    print(f'Em {ano} você completa 18 anos. Precisa se alistar imediatamente: ')
 elif idade <= 17:
-    print('Em {} você completa {} anos. Então, ainda faltam {} ano(s) pra você se alistar'.format(ano, idade, faltam))
+    print(f'Em {ano} você completa {idade} anos. Então, ainda faltam {faltam} ano(s) pra você se alistar')
 else:
-    print('Em {} você completa {} anos. Deveria ter se alistado a {} ano(s)'.format(ano, idade, passou))
+    print(f'Em {ano} você completa {idade} anos. Deveria ter se alistado a {passou} ano(s)')
 

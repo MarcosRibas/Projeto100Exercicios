@@ -4,4 +4,4 @@ s = 0
 for c in range(0,500,3):
     if c % 2 == 1:
         s = s + c
-print('A soma de somados todos os números impáres múltiplos de três no intervalo de 1 a 500 é {}'.format(s))
+print(f'A soma de somados todos os números impáres múltiplos de três no intervalo de 1 a 500 é {s}')

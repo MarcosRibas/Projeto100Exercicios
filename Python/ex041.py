@@ -10,7 +10,7 @@ now = datetime.now()
 ano = (now.year)
 nasc = int(input('Em que ano o atleta nasceu? '))
 idade = ano - nasc
-print('Em {} o atleta completa {} anos'.format(ano, idade))
+print(f'Em {ano} o atleta completa {idade} anos')
 if idade < 9:
     print('Categoria: MIRIM')
 elif idade >= 9 and idade < 14:

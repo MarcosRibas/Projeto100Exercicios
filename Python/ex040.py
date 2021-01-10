@@ -9,7 +9,7 @@
 n1 = float(input('Nota um: '))
 n2 = float(input('Nota dois: '))
 media = (n1 + n2) / 2
-print('Sua média é de {}'.format(media))
+print(f'Sua média é de {media}')
 if media < 5:
     print('Está REPROVADO')
 elif media >= 5 and media < 7:

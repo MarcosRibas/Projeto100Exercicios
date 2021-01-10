@@ -13,14 +13,14 @@ print('''Formas de pagamento:
 forma = int(input('Qual a forma de pagamento escolhida? '))
 if forma == 1:
     valor = preço - (preço * 10 /100)
-    print('O valor final à vista com 10% de desconto fica R${:.2f}'.format(valor))
+    print(f'O valor final à vista com 10% de desconto fica R${valor:.2f}')
 elif forma == 2:
     valor = preço - (preço * 5 / 100)
-    print('O valor à vista no cartão com 5% de desconto fica R${:.2f}'.format(valor))
+    print(f'O valor à vista no cartão com 5% de desconto fica R${valor:.2f}')
 elif forma == 3:
-    print('Parcelado em duas vezes o produto mantém o preço de R${:.2f}'.format(preço))
+    print(f'Parcelado em duas vezes o produto mantém o preço de R${preço:.2f}')
 elif forma == 4:
     valor = preço + (preço * 20 / 100)
-    print('O valor em 3 ou maias vezes fica em R${:.2f}'.format(valor))
+    print(f'O valor em 3 ou maias vezes fica em R${valor:.2f}')
 else:
     print('Valor informado inválido, tente novamente')

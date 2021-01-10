@@ -5,4 +5,4 @@ for c in range(1, 7):
     num = int(input('Digite um número: '))
     if num % 2 == 0:
         par = par + num
-print('A soma dos números pares que você digitou foi {}'.format(par))
+print(f'A soma dos números pares que você digitou foi {par}')
