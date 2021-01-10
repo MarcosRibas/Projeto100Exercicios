@@ -8,4 +8,4 @@ if km < 200:
 else:
     val = km * 0.45
 
-print('O valor da passam ficou R${:.2f}'.format(val))
+print(f'O valor da passagem ficou R${val:.2f}')

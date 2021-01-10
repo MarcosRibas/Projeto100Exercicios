@@ -5,7 +5,7 @@ Para inferiores ou iguais o aumento é de 15%.'''
 sal = float(input('Qual o salário? R$'))
 if sal <= 1250:
     aum = sal + (sal * 15 / 100)
-    print('O salário teve um aumento de 15%, e agora é de R${:.2f}'.format(aum))
+    print(f'O salário teve um aumento de 15%, e agora é de R${aum:.2f}')
 else:
     aum = sal + (sal * 10 / 100)
-    print('O salário teve um aumento de 10%, e agora é de R${:.2f}'.format(aum))
+    print(f'O salário teve um aumento de 10%, e agora é de R${aum:.2f}')

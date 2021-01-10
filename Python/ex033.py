@@ -5,5 +5,5 @@ n3 = int(input('Digite o ultimo número: '))
 lista = [n1, n2, n3]
 max = max(lista)
 min = min(lista)
-print('O maior número dessa lista é {}. E o menor número dessa lista é {}.'.format(max, min))
+print(f'O maior número dessa lista é {max}. E o menor número dessa lista é {min}.')
 

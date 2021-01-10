@@ -2,6 +2,6 @@
 
 ano = int(input('Que ano você quer saber se é bissexto? \n'))
 if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
-    print('O ano {} é bissexto'.format(ano))
+    print(f'O ano {ano} é bissexto')
 else:
-    print('O ano {} não é bissexto'.format(ano))
+    print(f'O ano {ano} não é bissexto')
