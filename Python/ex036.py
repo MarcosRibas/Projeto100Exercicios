@@ -3,7 +3,7 @@
 #Calcule o valor da prestação mensal, sabendo que ela não pode exceder 30% do salário ou então o empréstimo será negado.
 val = float(input('Qual o valor da casa? R$'))
 sal = float(input('Qual o valor do salário? R$'))
-anos = int(input('Em quantos anos pretende pagar?\n'))
+anos = int(input('Em quantos anos pretende pagar? \n'))
 mes = (val / anos) / 12
 if mes <= sal * 30 / 100:
     print(f'Empréstimo aprovado! As parcelas serão de R${mes:.2f}')
