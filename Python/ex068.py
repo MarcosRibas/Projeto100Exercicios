@@ -3,7 +3,7 @@ Ex068 “Jogo par ou ímpar” Faça um programa que jogue par ou impar com o us
 jogador PERDER, mostrando o total de vitorias consecutivas que ele conquistou no final do jogo.
 """
 import random
-print('----VAMOS JOGAR PAR OU IMPAR?----')
+print('-----VAMOS JOGAR PAR OU IMPAR?-----')
 continua = 0
 vitorias = 0
 while continua == 0:
