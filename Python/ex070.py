@@ -11,7 +11,6 @@ list = [0]
 tot = 0
 menor = 1000000000
 mais = []
-
 resp = 's'
 print('CADASTRO DE PRODUTOS')
 while resp == 's':
