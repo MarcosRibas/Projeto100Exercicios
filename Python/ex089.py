@@ -4,7 +4,7 @@ No final, mostre um boletim contendo a média de cada um e permita que o usuári
 individualmente.
 '''
 lista = list()
-print('---- CADASTRO DE NOTAS ----')
+print('----- CADASTRO DE NOTAS -----')
 while True:
     n = str(input('Nome: '))
     n1 = float(input('Nota 1: '))
