@@ -1,5 +1,5 @@
-'''Ex035 Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um
-triangulo.'''
+"""Ex035 Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um
+triangulo."""
 print('Analisador de Triângulos')
 r1 = float(input('Primeiro segmento: '))
 r2 = float(input('Segundo segmento: '))
