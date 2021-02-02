@@ -1,7 +1,7 @@
-'''Ex026 Faça um programa que leia uma frase pelo teclado e mostre:
+"""Ex026 Faça um programa que leia uma frase pelo teclado e mostre:
 Quantas vezes aparece a letra "A".
 Em que posição ela aparece a primeira vez.
-Em que posição ela aparece pela última vez.'''
+Em que posição ela aparece pela última vez."""
 frase = str(input('Digite uma frase: ')).strip().lower()
 n_a = frase.count('a')
 f_a = frase.find('a')+1
