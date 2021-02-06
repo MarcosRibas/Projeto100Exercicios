@@ -3,18 +3,14 @@ Ex104 Crie um programa que tenha a função leiaInt(), que vai funcionar de form
 só que fazendo a validação para aceitar apenas um valor numérico. Ex: n = leiaInt(‘Digite um n: ‘)
 """
 def leiaInt(msg):
-    ok = False
-    valor = 0
     while True:
-        n = str(input(msg))
-        if n.isnumeric():
-            valor = int(n)
-            ok = True
+        try:
+            n = int(input(msg))
+        except(ValueError, TypeError):
+            print(f'ERRO! o valor digitado não é um número inteiro. Tente novamente.')
         else:
-            print('ERRO! Não foi digitado um número inteiro')
-        if ok == True:
-            break
-    return valor
+            return n
 
-n = leiaInt('Digite um número: ')
-print(f'Você acabou de digitar o número {n}')
+n1 = leiaInt('Digite um número Inteiro: ')
+
+print(f'Você digitou o número {n1}')
