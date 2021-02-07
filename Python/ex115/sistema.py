@@ -1,5 +1,6 @@
 """Ex115a “Criando um menu” Vamos criar um menu em Python, usando modularização."""
 """Ex115b “Arquivos com Python” Vamos ver como fazer acesso a arquivos usando o Python."""
+"""Ex115c "Finalizando o projeto" Vamos finalizar o projeto de acesso a arquivos em Python."""
 from ex115.lib.interface import *
 from ex115.lib.arquivo import *
 
@@ -10,7 +11,7 @@ cabeçalho('MENU PRINCIPAL')
 while True:
     resp = menu(['Ver pessoas cadastradas', 'Cadastrar nova pessoa', 'Sair do sistema'])
     if resp == 1:
-        cabeçalho('Opção 1 escolhida')
+       lerArquivo(arq)
     elif resp == 2:
         cabeçalho('Opção dois escolhida')
     elif resp == 3:
