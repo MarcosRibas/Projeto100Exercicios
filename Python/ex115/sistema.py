@@ -13,7 +13,10 @@ while True:
     if resp == 1:
        lerArquivo(arq)
     elif resp == 2:
-        cabeçalho('Opção dois escolhida')
+        cabeçalho('NOVO CADASTRO')
+        nome = str(input('Nome: '))
+        idade = leiaInt('Idade: ')
+        cadastrar(arq, nome, idade)
     elif resp == 3:
         cabeçalho('Saindo do sistema... Até logo!')
         break

@@ -1,3 +1,4 @@
-Gustavo; 43
-Marcos; 29
-Enzo; 13
+José;35
+Enzo;13
+Ana;24
+Ronaldo;31
